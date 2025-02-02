@@ -15,7 +15,8 @@ export function BalloonDog() {
       roughness: { value: 0.1, min: 0, max: 1, step: 0.1 },
       ior: { value: 1.45, min: 0, max: 2, step: 0.1 },
       alpha: { value: 0.6, min: 0, max: 1, step: 0.1 },
-    }
+    },
+    { collapsed: true }
   );
 
   scene.traverse((child) => {
